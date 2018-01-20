@@ -36,6 +36,7 @@
 
     <feature name="openhab-package-simple" description="openHAB Simple Package" version="${project.version}">
         <feature>openhab-runtime-base</feature>
+        <feature>openhab-transport-serial</feature>
         <config name="org.openhab.addons" append="true">
 			package = simple
 			ui = paper,habpanel
@@ -48,6 +49,7 @@
 
     <feature name="openhab-package-standard" description="openHAB Standard Package" version="${project.version}">
         <feature>openhab-runtime-base</feature>
+        <feature>openhab-transport-serial</feature>
         <config name="org.openhab.addons" append="true">
 			package = standard
 			ui = basic,paper,habpanel,homebuilder
@@ -60,6 +62,7 @@
     <feature name="openhab-package-expert" description="openHAB Expert Package" version="${project.version}">
         <feature>openhab-runtime-base</feature>
         <feature>openhab-runtime-compat1x</feature>
+        <feature>openhab-transport-serial</feature>
         <config name="org.openhab.addons" append="true">
 			package = expert
 			ui = classic,basic,paper,habpanel,habmin
